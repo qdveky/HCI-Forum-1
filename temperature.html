@@ -7,24 +7,90 @@
   <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
+  <div class="container" style="border: 2px solid #000; border-radius: 10px; padding: 20px;">
+    <div class="row justify-content-center my-4" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+      <div class="h1 text-center">Smart Home</div>
+    </div>
 
-<div class="h3 justify-content-center">Smart Home</div>
+    <div class="row">
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Homepage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="electronics.html">Electronics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="lights.html">Lights</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="temperature.html">Temperature</a>
+        </li>
+      </ul>
+    </div>
 
-<ul class="nav nav-pills nav-fill mx-5 my-5">
-  <li class="nav-item">
-    <a class="nav-link" aria-current="page" href="index.html">Homepage</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="music.html">Music</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="lights.html">Lights</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="temperature.html">Temperature</a>
-  </li>
-</ul>
-
-  
-</body>
-</html>
+    <div class="row my-4">
+      <div class="col d-flex justify-content-center">
+        <div class="text-center">
+          <div class="input-group my-4">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-primary" type="button">Apply</button>
+            </div>
+            <select class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+              <option selected>Living Room...</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <div class="text-center">
+          <div class="input-group my-4">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-primary" type="button">Apply</button>
+            </div>
+            <select class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+              <option selected>Bedroom...</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="p-3 border border-md-0 rounded mx-0 mx-sm-5 mt-2">
+            <div class="form-check form-switch mx-0 mx-sm-5">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+              <label class="form-check-label mx-5" for="flexSwitchCheckChecked">Living Room AC</label>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+          <div class="p-3 border border-md-0 rounded mx-0 mx-sm-5 mt-2">
+            <div class="form-check form-switch mx-0 mx-sm-5">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+              <label class="form-check-label mx-5" for="flexSwitchCheckChecked">Bedroom AC</label>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
